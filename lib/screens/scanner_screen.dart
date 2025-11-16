@@ -12,13 +12,35 @@ class ScannerScreen extends StatefulWidget {
   State<ScannerScreen> createState() => _ScannerScreenState();
 }
 
-class _ScannerScreenState extends State<ScannerScreen> {
-  final MobileScannerController _controller = MobileScannerController();
+class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserver {
+  final MobileScannerController _controller = MobileScannerController(autoStart: false);
+  bool _isStarting = true;
+  
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    _controller.start().whenComplete(() => _isStarting = false);
+  }
 
   @override
   void dispose() {
     _controller.stop();
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (!mounted) return;
+
+    if (state == AppLifecycleState.paused) {
+      if (_isStarting) return;
+      _controller.stop();
+    } else if (state == AppLifecycleState.resumed) {
+      if (_isStarting) return;
+      _controller.start().whenComplete(() => _isStarting = false);
+    }
   }
 
   @override
