@@ -1,5 +1,6 @@
 {
     "name": "Wheelchair",
+    "modelPath": "assets/models/wheelchair.glb",
     "category": "Mobility and Patient Transport Equipment",
     "specifications": "Manual or electric; steel or lightweight alloy frame; footrests, armrests, locking wheels; seat width varies (approx. 40-50 cm).",
     "function": "Provides safe mobility and transport for patients with impaired movement.",
