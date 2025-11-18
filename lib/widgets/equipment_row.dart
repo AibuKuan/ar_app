@@ -1,3 +1,5 @@
+import 'package:ar_app/services/model.dart';
+import 'package:ar_app/utils/ar.dart';
 import 'package:ar_app/utils/asset.dart';
 import 'package:flutter/material.dart';
 import 'package:ar_app/models/equipment.dart'; // Ensure correct path to your model
@@ -122,12 +124,43 @@ class _EquipmentRowState extends State<EquipmentRow> {
                   
                   const SizedBox(width: 15),
                   
-                  // 2. AR Icon 
-                  Icon(
-                    Icons.view_in_ar,
-                    size: 30,
-                    color: Theme.of(context).primaryColor,
+                  // 2. Action Buttons
+                  widget.equipment.modelPath.isEmpty ?
+                  IconButton(
+                    onPressed: () {}, 
+                    icon: Icon(
+                      Icons.download,
+                      size: 30,
+                      color: Theme.of(context).primaryColor,
+                    )
                   )
+                  :
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {
+                          Model.create(widget.equipment.name).then((model) {
+                            showARView(context, model, () {});
+                          });
+                        }, 
+                        icon: Icon(
+                          Icons.view_in_ar,
+                          size: 30,
+                          color: Theme.of(context).primaryColor,
+                        )
+                      ),
+
+                      IconButton(
+                        onPressed: () {}, 
+                        icon: Icon(
+                          Icons.delete,
+                          color: Colors.red,
+                        )
+                      )
+                    ]
+                  )
+                  
+                  
                 ],
               ),
             ),

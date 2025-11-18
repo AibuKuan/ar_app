@@ -1,8 +1,7 @@
 import 'package:ar_app/services/model.dart';
+import 'package:ar_app/utils/ar.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
-
-import 'ar_view_screen.dart';
 
 
 class ScannerScreen extends StatefulWidget {
@@ -62,9 +61,9 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                 ),
               );
             } else {
-              Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => ARViewScreen(model: model)),
-              ).then((_) => _controller.start());
+              showARView(context, model, () {
+                _controller.start().whenComplete(() => _isStarting = false);
+              });
             }
           });
         }
