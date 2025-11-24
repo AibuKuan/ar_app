@@ -1,6 +1,6 @@
 {
     "name": "Pulse Oximeter",
-    "modelPath": "",
+    "modelPath": "assets/models/pulse-oximeter.glb",
     "category": "Monitoring and Assessment Equipment",
     "specifications": "Battery-operated device; plastic finger or ear clip sensor; LED digital display; lightweight (50–100 g).",
     "function": "Measures oxygen saturation (SpO2) and pulse rate non-invasively.",

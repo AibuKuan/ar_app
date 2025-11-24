@@ -1,6 +1,6 @@
 {
     "name": "Microscope Slide",
-    "modelPath": "",
+    "modelPath": "assets/models/microscope-slide.glb",
     "category": "Laboratory Consumables",
     "specifications": "Rectangular glass plate (~75 x 25 mm, 1 mm thick) with a smooth, transparent surface.",
     "function": "Used to hold and prepare specimens for examination under a microscope.",

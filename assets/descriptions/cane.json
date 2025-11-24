@@ -1,6 +1,6 @@
 {
     "name": "Cane",
-    "modelPath": "",
+    "modelPath": "assets/models/cane.glb",
     "category": "Mobility and Patient Support Equipment",
     "specifications": "Fixed or adjustable aluminum or wooden shaft; rubber tip; ergonomic handle; typical length 80–100 cm.",
     "function": "Assists patients with mild mobility or balance issues during walking.",

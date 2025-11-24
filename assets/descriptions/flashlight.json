@@ -1,6 +1,6 @@
 {
     "name": "Flashlight (Pen Light)",
-    "modelPath": "",
+    "modelPath": "assets/models/flashlight.glb",
     "category": "Assessment and Diagnostic Equipment",
     "specifications": "Pen-sized, battery-operated device with a plastic or metal casing; integrated clip; LED light source; approximately 13–15 cm in length.",
     "function": "Used to assess pupil reaction, examine oral or nasal cavities, and illuminate small areas during clinical assessment.",

@@ -1,6 +1,6 @@
 {
     "name": "Breast Pump",
-    "modelPath": "",
+    "modelPath": "assets/models/breast-pump.glb",
     "category": "Assessment and Infant Care Equipment",
     "specifications": "Manual or electric device; made of medical-grade plastic; includes flange, collection bottle, and suction mechanism.",
     "function": "Extracts breast milk from lactating mothers for storage or feeding.",

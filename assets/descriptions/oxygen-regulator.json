@@ -1,6 +1,6 @@
 {
     "name": "Oxygen Regulator",
-    "modelPath": "",
+    "modelPath": "assets/models/oxygen-regulator.glb",
     "category": "Respiratory Care Equipment",
     "specifications": "Brass and steel construction; includes pressure gauge, flowmeter, and adjusting knob; designed to attach to an oxygen cylinder.",
     "function": "Controls the flow rate and delivery of oxygen from a cylinder to the patient via tubing or mask.",

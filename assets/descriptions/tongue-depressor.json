@@ -1,6 +1,6 @@
 {
     "name": "Tongue Depressor",
-    "modelPath": "",
+    "modelPath": "assets/models/tongue-depressor.glb",
     "category": "Assessment & Diagnostic Equipment",
     "specifications": "Disposable wooden or plastic stick with smooth edges; approximately 15 cm long and 2 cm wide.",
     "function": "Depresses the tongue for oral and pharyngeal examinations.",

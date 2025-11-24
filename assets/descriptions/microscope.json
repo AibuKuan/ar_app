@@ -1,6 +1,6 @@
 {
     "name": "Microscope",
-    "modelPath": "",
+    "modelPath": "assets/models/microscope.glb",
     "category": "Laboratory and Diagnostic Equipment",
     "specifications": "Compound light microscope; adjustable objective lenses (4x, 10x, 40x, 100x); mechanical stage; LED or mirror illumination; typically 5–10 kg.",
     "function": "Allows magnified viewing of blood, urine, or tissue samples on glass slides for diagnosis or training.",

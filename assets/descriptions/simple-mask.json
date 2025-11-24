@@ -1,6 +1,6 @@
 {
     "name": "Simple Mask",
-    "modelPath": "",
+    "modelPath": "assets/models/simple-mask.glb",
     "category": "Respiratory Care Equipment",
     "specifications": "Molded soft plastic clear mask; adjustable elastic strap; oxygen inlet; fits most adults and older children.",
     "function": "Delivers moderate concentrations of oxygen to spontaneously breathing patients.",
