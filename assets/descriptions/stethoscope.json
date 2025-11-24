@@ -1,0 +1,10 @@
+{
+  "name": "Stethoscope",
+  "modelpath": "asset/model/stethoscope.glb",
+  "category": "Assessment Equipment",
+  "specification": "Flexible tubing connecting stainless steel chestpiece (with diaphragm and bell) to soft ear tips; includes metal stem linking chestpiece and tubing; designed for clear sound transmission.",
+  "function": "Amplifies internal body sounds such as heartbeats, lung sounds, and bowel movements for diagnostic assessment.",
+  "usage": "Place the chestpiece directly on patient’s skin; use diaphragm side for high-pitched sounds and bell side for low-pitched sounds; listen carefully through earpieces.",
+  "maintenance": "Clean ear tips, tubing, and chestpiece regularly using alcohol wipes; inspect for damage or wear; replace parts as needed to maintain sound quality.",
+  "warning": "Using a dirty or damaged stethoscope can spread infection and reduce acoustic clarity."
+}

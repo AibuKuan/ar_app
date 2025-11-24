@@ -1,0 +1,10 @@
+{   
+    "name": "Human Skull",
+    "modelpath": "asset/model/human-skull.glb",
+    "category": "Educational Anatomy Model",
+    "specification": "Plastic, life-size, removable sections.",
+    "function": "Shows anatomy of the human skull.",
+    "usage": "Use for cranial study; open sections gently.",
+    "maintenance": "Clean regularly; avoid drops.",
+    "warning": "Dropping cracks or breaks sections."
+  }

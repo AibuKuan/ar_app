@@ -1,0 +1,10 @@
+{ 
+    "name": "Brain",
+    "modelpath": "asset/model/brain.glb",
+    "category": "Educational Anatomy Model",
+    "specification": "Plastic, life-size, labeled sections.",
+    "function": "Visualizes brain anatomy for teaching.",
+    "usage": "Handle gently; use for demonstration.",
+    "maintenance": "Dust gently; avoid moisture.",
+    "warning": "Dropping or rough handling breaks delicate sections."
+  }

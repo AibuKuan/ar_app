@@ -1,0 +1,10 @@
+{   
+    "name": "Kidney Basin Plastic",
+    "modelpath": "asset/model/kidney-basin-plastic.glb",
+    "category": "Sanitation Equipment",
+    "specification": "Plastic, kidney-shaped, ~24x12x5cm.",
+    "function": "Used same as stainless but lightweight.",
+    "usage": "Clean and inspect for cracks; use with gloves.",
+    "maintenance": "Disinfect after patient use.",
+    "warning": "Discard cracked basins immediately."
+  }

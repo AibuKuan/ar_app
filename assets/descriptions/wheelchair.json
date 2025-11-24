@@ -1,10 +1,11 @@
-{
+{   
     "name": "Wheelchair",
-    "modelPath": "assets/models/wheelchair.glb",
-    "category": "Mobility and Patient Transport Equipment",
-    "specifications": "Manual or electric; steel or lightweight alloy frame; footrests, armrests, locking wheels; seat width varies (approx. 40-50 cm).",
-    "function": "Provides safe mobility and transport for patients with impaired movement.",
-    "usage": "Lock wheels before seating patient; assist as needed; adjust footrests and armrests; unlock and move smoothly, ensuring patient comfort and safety.",
-    "maintenance": "Use with proper PPE (gloves, mask, eye protection); sterilize reusable components after use and follow manufacturer cleaning protocol; inspect for leaks or damage before each use.",
-    "warning": "Inadequate mask seal, over-ventilation causing gastric inflation, or improper cleaning leading to infection risk."
-}
+    "modepath": "asset/model/wheelchair.glb",
+    "category": "Mobility Aid",
+    "specification": "Steel/aluminum, locking wheels, cushioned seat, leg/foot rests.",
+    "function": "Helps transport patients with mobility impairment.",
+    "usage": "Lock brakes; assist patient transferring; secure footrests.",
+    "maintenance": "Clean regularly; check wheels/locks.",
+    "warning": "Unlocked wheels and improper transfer risks injury."
+
+  }

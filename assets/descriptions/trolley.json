@@ -1,10 +1,10 @@
-{
-    "name": "Trolley (Instrument or Medication)",
-    "modelPath": "",
-    "category": "Transport and Storage Equipment",
-    "specifications": "Stainless steel or coated metal; 2–3 shelves; locking caster wheels; handles; standard height 80–100 cm.",
-    "function": "Used for transporting medical instruments, medications, or supplies within clinical or simulation areas.",
-    "usage": "Load items securely; push trolley using handles; keep pathway clear; lock wheels when stationary to prevent movement.",
-    "maintenance": "Clean shelves and handles regularly; check wheel function and brakes.",
-    "warning": "Overloading shelves or leaving wheels unlocked during transfer."
-}
+{   
+    "name": "Trolley",
+    "modelpath": "asset/model/trolley.glb",
+    "category": "Storage and Transport Equipment",
+    "specification": "Stainless steel, multiple trays, lockable wheels.",
+    "function": "Organizes and transports surgical instruments.",
+    "usage": "Arrange sterilized instruments; lock wheels when stationary.",
+    "maintenance": "Disinfect trays and handles regularly.",
+    "warning": "Overloaded or dirty trolleys can lead to contamination and accidents."
+  }

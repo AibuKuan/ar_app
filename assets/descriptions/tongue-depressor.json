@@ -1,10 +1,11 @@
-{
+{   
     "name": "Tongue Depressor",
-    "modelPath": "assets/models/tongue-depressor.glb",
-    "category": "Assessment & Diagnostic Equipment",
-    "specifications": "Disposable wooden or plastic stick with smooth edges; approximately 15 cm long and 2 cm wide.",
-    "function": "Depresses the tongue for oral and pharyngeal examinations.",
-    "usage": "Wash hands and wear gloves; use one depressor per patient; gently press the tongue downward while inspecting the mouth or throat.",
-    "maintenance": "Dispose after single use; do not reuse; store unused depressors in a clean container.",
-    "warning": "Reusing depressors or rough handling, which may cause gagging or discomfort."
-}
+    "modelpath": "asset/model/tongue-depressor.glb",
+    "category": "Assessment Equipment",
+    "specification": "Flat wooden/plastic stick, ~15cm.",
+    "function": "Holds tongue down for mouth/throat exams.",
+    "usage": "Depress gently; discard after single use.",
+    "maintenance": "Keep in dry storage; dispose properly.",
+    "warning": "Never reuse; rough handling can cause gag reflex."
+
+  }

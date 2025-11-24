@@ -1,10 +1,12 @@
 {
-    "name": "Bedside Commode",
-    "modelPath": "assets/models/bedside-commode.glb",
-    "category": "Patient Care & Mobility Equipment",
-    "specifications": "Metal frame; adjustable height; plastic seat and pail; armrests; rubber-tipped feet; typically supports up to 100 kg.",
-    "function": "Provides portable toileting for patients with limited mobility.",
-    "usage": "Wear gloves; position commode near bed; assist patient; ensure pail is securely placed and locked; clean patient after use.",
-    "maintenance": "Clean and disinfect seat and pail after each use; check stability; inspect frame and rubber feet regularly.",
-    "warning": "Improper cleaning or unstable placement, risking infection or falls."
-}
+    
+   "name": "Bedside Commode",
+    "modelpath": "asset/model/bedside-commode.glb",
+    "category": "Patient Care Equipment",
+    "specification": "Steel/plastic frame, removable bucket, seat height ~45cm.",
+    "function": "Allows patients with mobility issues to use a toilet seat at bedside.",
+    "usage": "Assist patient; securely position; empty and clean after use.",
+    "maintenance": "Disinfect all parts; check for damage.",
+    "warning": "Unstable commode increases fall risk; thorough cleaning prevents infection."
+
+  }

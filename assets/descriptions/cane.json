@@ -1,10 +1,10 @@
-{
+{ 
     "name": "Cane",
-    "modelPath": "assets/models/cane.glb",
-    "category": "Mobility and Patient Support Equipment",
-    "specifications": "Fixed or adjustable aluminum or wooden shaft; rubber tip; ergonomic handle; typical length 80–100 cm.",
-    "function": "Assists patients with mild mobility or balance issues during walking.",
-    "usage": "Select appropriate height; instruct patient to hold the cane on their strong side; move cane forward as the patient steps with their weak leg.",
-    "maintenance": "Check for cracks or loose parts; replace rubber tip periodically; clean regularly.",
-    "warning": "Using the cane on the wrong side or setting incorrect height, which can lead to poor posture or instability."
-}
+    "modelpath": "asset/model/cane.glb",
+    "category": "Mobility Aid",
+    "specification": "Wood, rubber tip.",
+    "function": "Supports walking and stability.",
+    "usage": "Adjust for patient; instruct correct hand side; monitor gait.",
+    "maintenance": "Check tip and shaft; clean as needed.",
+    "warning": "Incorrect height or worn tips may cause falls."
+  }

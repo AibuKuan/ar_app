@@ -1,0 +1,11 @@
+{   
+    "name": "Weighing Scale",
+    "modelpath": "asset/model/weighing-scale.glb",
+    "category": "Monitoring Equipment",
+    "specification": "Mechanical or digital, platform, capacity 200kg.",
+    "function": "Measures patient weight.",
+    "usage": "Zero scale; patient steps on; read weight.",
+    "maintenance": "Clean platform; check calibration.",
+    "warning": "Uneven surface or misuse leads to inaccurate readings."
+
+  }
