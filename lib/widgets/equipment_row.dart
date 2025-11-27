@@ -175,13 +175,13 @@ class _EquipmentRowState extends State<EquipmentRow> {
                         )
                       ),
 
-                      IconButton(
-                        onPressed: () {}, 
-                        icon: Icon(
-                          Icons.delete,
-                          color: Colors.red,
-                        )
-                      )
+                      // IconButton(
+                      //   onPressed: () {}, 
+                      //   icon: Icon(
+                      //     Icons.delete,
+                      //     color: Colors.red,
+                      //   )
+                      // )
                     ]
                   )
                   

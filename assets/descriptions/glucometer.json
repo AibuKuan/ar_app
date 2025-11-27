@@ -1,10 +1,10 @@
-{   
-   "name": "Glucometer",
-    "modelPath": "asset/model/glucometer.glb",
-    "category": "Monitoring Equipment",
-    "specification": "Handheld digital device, LCD display, uses disposable strips.",
-    "function": "Analyzes blood glucose levels.",
-    "usage": "Insert strip; apply blood drop; read result on display.",
-    "maintenance": "Clean device with alcohol wipe after use.",
-    "warning": "Use fresh strips; improper strip use gives false readings."
-  }
+{
+    "name":  "Glucometer",
+    "modelPath":  "assets/models/glucometer.glb",
+    "category":  "Monitoring Equipment",
+    "specification":  "Handheld digital device, LCD display, uses disposable strips.",
+    "function":  "Analyzes blood glucose levels.",
+    "usage":  "Insert strip; apply blood drop; read result on display.",
+    "maintenance":  "Clean device with alcohol wipe after use.",
+    "warning":  "Use fresh strips; improper strip use gives false readings."
+}

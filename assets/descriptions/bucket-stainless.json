@@ -1,10 +1,10 @@
-{   
-    "name": "Bucket Stainless Steel",
-    "modelPath": "asset/model/bucket-stainless.glb",
-    "category": "Sanitation Equipment",
-    "specification": "Stainless, ~8–12L, handle, corrosion-resistant.",
-    "function": "Holds and transports water or cleaning solutions.",
-    "usage": "Fill as needed; carry with both hands.",
-    "maintenance": "Rinse and disinfect regularly.",
-    "warning": "Overfilling or rough handling causes spills."
-  }
+{
+    "name":  "Bucket Stainless Steel",
+    "modelPath":  "assets/models/bucket-stainless.glb",
+    "category":  "Sanitation Equipment",
+    "specification":  "Stainless, ~8–12L, handle, corrosion-resistant.",
+    "function":  "Holds and transports water or cleaning solutions.",
+    "usage":  "Fill as needed; carry with both hands.",
+    "maintenance":  "Rinse and disinfect regularly.",
+    "warning":  "Overfilling or rough handling causes spills."
+}

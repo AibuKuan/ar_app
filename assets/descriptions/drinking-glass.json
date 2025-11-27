@@ -1,11 +1,10 @@
 {
-    "name": "Drinking Glass",
-    "modelPath": "asset/model/drinking-glass.glb",
-    "category": "Food Service Equipment",
-    "specification": "Glass or plastic, ~200-300mL, smooth rim.",
-    "function": "Holds fluids for drinking.",
-    "usage": "Serve clean glass to patient; fill as required.",
-    "maintenance": "Wash and dry thoroughly.",
-    "warning": "Cracked glasses are unsafe and must be discarded."
-  
-  }
+    "name":  "Drinking Glass",
+    "modelPath":  "assets/models/drinking-glass.glb",
+    "category":  "Food Service Equipment",
+    "specification":  "Glass or plastic, ~200-300mL, smooth rim.",
+    "function":  "Holds fluids for drinking.",
+    "usage":  "Serve clean glass to patient; fill as required.",
+    "maintenance":  "Wash and dry thoroughly.",
+    "warning":  "Cracked glasses are unsafe and must be discarded."
+}

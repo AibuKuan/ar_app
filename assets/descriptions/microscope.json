@@ -1,10 +1,10 @@
-{   
-    "name": "Microscope",
-    "modelPath": "asset/model/microscope.glb",
-    "category": "Diagnostic Equipment",
-    "specification": "Optical; 40x–1000x, glass lenses, mechanical stage.",
-    "function": "Magnifies specimens for laboratory examination.",
-    "usage": "Prepare slide; adjust focus and illumination.",
-    "maintenance": "Clean lenses; keep covered when not in use.",
-    "warning": "Handle slides and optics gently to avoid damage."
-  }
+{
+    "name":  "Microscope",
+    "modelPath":  "assets/models/microscope.glb",
+    "category":  "Diagnostic Equipment",
+    "specification":  "Optical; 40x–1000x, glass lenses, mechanical stage.",
+    "function":  "Magnifies specimens for laboratory examination.",
+    "usage":  "Prepare slide; adjust focus and illumination.",
+    "maintenance":  "Clean lenses; keep covered when not in use.",
+    "warning":  "Handle slides and optics gently to avoid damage."
+}

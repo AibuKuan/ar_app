@@ -1,10 +1,10 @@
-{   
-    "name": "Microscope Slide With Case",
-    "modelPath": "asset/model/microscope-slide-with-case.glb",
-    "category": "Lab Equipment",
-    "specification": "Glass slides (76x26mm), plastic case for 25–50 slides.",
-    "function": "Holds and protects specimens for microscopy.",
-    "usage": "Place specimens; cover slip if needed; label slides.",
-    "maintenance": "Handle with gloves; store clean and dry.",
-    "warning": "Direct skin contact leads to smudges or breakage."
-  }
+{
+    "name":  "Microscope Slide With Case",
+    "modelPath":  "assets/models/microscope-slide-with-cas.glb",
+    "category":  "Lab Equipment",
+    "specification":  "Glass slides (76x26mm), plastic case for 25–50 slides.",
+    "function":  "Holds and protects specimens for microscopy.",
+    "usage":  "Place specimens; cover slip if needed; label slides.",
+    "maintenance":  "Handle with gloves; store clean and dry.",
+    "warning":  "Direct skin contact leads to smudges or breakage."
+}
