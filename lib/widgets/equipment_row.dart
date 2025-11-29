@@ -170,7 +170,7 @@ class _EquipmentRowState extends State<EquipmentRow> {
                           // });
                         }, 
                         icon: Icon(
-                          Icons.view_in_ar,
+                          Icons.videocam,
                           size: 30,
                           color: Theme.of(context).primaryColor,
                         )
@@ -188,7 +188,9 @@ class _EquipmentRowState extends State<EquipmentRow> {
                           );
                         }, 
                         icon: Icon(
-                          Icons.open_with_rounded,
+                          Icons.view_in_ar,
+                          size: 30,
+                          color: Theme.of(context).primaryColor,
                         )
                       )
                     ]
