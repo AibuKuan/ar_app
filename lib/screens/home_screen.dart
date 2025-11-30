@@ -3,6 +3,58 @@ import 'package:flutter/material.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  // --- New Helper function to parse bold text (**) from a string ---
+  Widget _buildDetailText(String text, Color color) {
+    // Regex to find text enclosed in **
+    final RegExp boldRegex = RegExp(r'\*\*(.*?)\*\*');
+    final List<TextSpan> spans = [];
+    int currentPosition = 0;
+
+    for (final match in boldRegex.allMatches(text)) {
+      // 1. Add non-bold text before the match
+      if (match.start > currentPosition) {
+        spans.add(TextSpan(text: text.substring(currentPosition, match.start)));
+      }
+
+      // 2. Add the bold text (group 1 is the content inside **)
+      spans.add(
+        TextSpan(
+          text: match.group(1),
+          style: const TextStyle(fontWeight: FontWeight.bold),
+        ),
+      );
+
+      // Update position to the end of the match
+      currentPosition = match.end;
+    }
+
+    // 3. Add any remaining non-bold text after the last match
+    if (currentPosition < text.length) {
+      spans.add(TextSpan(text: text.substring(currentPosition)));
+    }
+
+    // Now, build the Row with the icon and the parsed RichText
+    return Padding(
+      padding: const EdgeInsets.only(top: 8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(Icons.check_circle_outline, size: 18, color: color.withOpacity(0.7)),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text.rich(
+              TextSpan(
+                style: const TextStyle(fontSize: 14, height: 1.5), // Default style
+                children: spans,
+              ),
+              textAlign: TextAlign.justify,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   // --- Helper function to build a feature tile ---
   Widget _buildFeatureTile({
     required IconData icon,
@@ -33,23 +85,8 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(20, 0, 16, 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: details.map((detail) => Padding(
-                padding: const EdgeInsets.only(top: 8.0),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Icon(Icons.check_circle_outline, size: 18, color: color.withOpacity(0.7)),
-                    const SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        detail,
-                        style: const TextStyle(fontSize: 14),
-                        textAlign: TextAlign.justify,
-                      ),
-                    ),
-                  ],
-                ),
-              )).toList(),
+              // Use the new _buildDetailText function here
+              children: details.map((detail) => _buildDetailText(detail, color)).toList(),
             ),
           ),
         ],
@@ -129,7 +166,7 @@ class HomeScreen extends StatelessWidget {
             title: 'AR Camera',
             subtitle: 'Place and interact with 3D models in your real-world environment.',
             details: [
-              'This feature requires a phone with AR support.',
+              'This feature requires a phone with **AR support**.',
               'Ensure you are on a **clear, flat surface** and slowly scan the area until **dotted planes** appear.',
               'Tap on a dotted plane to place the 3D model.',
               'Use the **slider** on the screen to resize the model (zoom in/out).',
